@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height:  fit-content;
+    display: flex;
+    justify-content: flex-start;
+  
+    padding: 3% 0%;
+}
+
+
+.description{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    padding: 0% 2%;
+}
+
+.itens{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

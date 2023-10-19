@@ -5,9 +5,11 @@ import Banner from './componets/Banner';
 import Header from './componets/Header';
 import reportWebVitals from './reportWebVitals';
 import Sobre from './componets/Sobre';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
     <Header/>
     <Banner/>
     <Sobre/>

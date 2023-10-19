@@ -1,0 +1,37 @@
+.container{
+    /* background-color: white; */
+    
+    margin-bottom: 3%;
+
+}
+
+.container h1{
+    font-size: clamp(1.25rem, 2vw, 2.5rem);
+    animation: showin 700ms;
+}
+
+.elements{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    gap: 4px;
+}
+
+.bar{
+    background-color:#FFFFFF;
+    width: 2px ;
+    height: clamp(1.25rem, 3vw, 5rem);
+    color: transparent; /* Torna o texto transparente */
+}
+
+
+@keyframes showin {
+    from{
+        opacity: -2;
+        margin: -100%;
+    }
+    to{
+        margin: 0%;
+        opacity: 1;
+    }
+}

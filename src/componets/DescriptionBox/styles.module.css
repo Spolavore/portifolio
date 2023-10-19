@@ -1,0 +1,25 @@
+.container{
+    color: #FFFF;
+    flex: 1;
+    height: 40vh;
+    padding: 2%;
+    border: 10px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(171,175,199,1) 0%, rgba(42,70,215,1) 0%, rgba(9,22,91,1) 20%);
+    border-image-slice: 1; /* Define a divisão do gradiente (neste caso, 1 significa que o gradiente cobre toda a borda) */
+    border-image-width: 2px; /* Define a largura da borda (deve coincidir com a largura da borda definida acima) */
+    border-radius: 20px;
+
+    margin: 5px;
+    
+}
+
+.container span{
+    font-size: clamp(00.75rem, 1.3vw, 1.5rem);
+
+}
+
+.container p{
+    margin-top: 5%;
+    font-size: clamp(00.65rem, 1vw, 1.2rem);
+
+}
