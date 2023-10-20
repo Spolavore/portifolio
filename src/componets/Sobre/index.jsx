@@ -23,7 +23,7 @@ export default function Sobre(){
                             <p>&gt; Meu
                                 objetivo profissional é me tornar um desenvolvedor fullstack que
                                 possui conhecimento de todos , ou a maioria, dos processos de
-                                desenvolvimento de software. <span className={style.animatedChar}>_</span>
+                                desenvolvimento de software <span className={style.animatedChar}>_</span>
                             </p>
                         </div>
                             
