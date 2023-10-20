@@ -3,7 +3,9 @@
     height:  fit-content;
     display: flex;
     justify-content: flex-start;
-  
+    /* background-color: violet; */
+    margin-top: -5%;
+    margin-bottom: 5%;
     padding: 3% 0%;
 }
 
@@ -15,8 +17,55 @@
 }
 
 .itens{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.animatedChar{
+    animation: pulse 2s infinite;
+   
+}
+
+.text{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    height: 30vh;
+
+}
+.redes_logo, .github_logo{
+    width: 2vw;
+    
+}
+
+.github_logo{
+    filter: invert();
+}
+.img_default{
+
+    width: 6vw;
+}
+
+.redes{
+    display: flex;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+    margin-top: 5%;
+}
+
+@keyframes pulse {
+    from{
+       opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }

@@ -13,7 +13,7 @@
     height: fit-content;
     /* background-color: red; */
     align-items: center;
-  
+    
     transition: all ease-in 300ms;
 }
 
@@ -27,7 +27,7 @@
 .container h1{
     color: #FFFFFF;
     padding: 5%;
-    font-size: clamp(2rem, 2.5vw, 3.5vw);
+    font-size: clamp(2rem, 3vw, 3.5vw);
     margin-left: -2%;
     
 }
@@ -35,17 +35,17 @@
 
 .logo_img {
     filter: invert(100%);
-    width: 100px;
-    height: 100;
- 
+    width: 150px;
+    height: 150px;
+    
 
 }
 
 .banner_img{
-    /* width: 70vw; */
-    position: absolute;
-    top: 50px; /* A partir do topo da tela */
-    left: -5%; /* A partir da margem direita da tela */
+    width: 800px;
+    position: fixed;
+    top: 10%; /* A partir do topo da tela */
+    left: 5%; /* A partir da margem direita da tela */
     opacity: 50%;
     z-index: -9999;
     

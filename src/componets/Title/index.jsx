@@ -1,10 +1,11 @@
 import style from './styles.module.css'
-export default function Title({title}){
+export default function Title({title, color}){
+    let colorText = {color: color}
     return(
         <div className={style.container}>
             <div className={style.elements}>
-                <span className={style.bar}>/</span>
-                <h1>{title}</h1>
+                <span style={{backgroundColor: color}} className={style.bar}>/</span>
+                <h1 style={colorText}>{title}</h1>
             </div>
         </div>
     )

@@ -8,13 +8,14 @@
 .container h1{
     font-size: clamp(1.25rem, 2vw, 2.5rem);
     animation: showin 700ms;
+    color: #FFFFFF;
 }
 
 .elements{
     display: flex;
     color: #FFFFFF;
     align-items: center;
-    gap: 4px;
+    gap: 20px;
 }
 
 .bar{

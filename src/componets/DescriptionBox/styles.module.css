@@ -1,4 +1,8 @@
 .container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 600px;
     color: #FFFF;
     flex: 1;
     height: 40vh;
@@ -21,5 +25,22 @@
 .container p{
     margin-top: 5%;
     font-size: clamp(00.65rem, 1vw, 1.2rem);
+    text-align: justify;
+}
 
+.container img{
+    align-self: center;
+    margin-top: 2%;
+
+    
+}
+
+
+.container a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    /* background-color: red; */
 }
