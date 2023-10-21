@@ -33,16 +33,16 @@ export default function Sobre(){
                     <DescriptionBox>
                         <span>Minhas redes</span>
                         <div className={style.redes}>
-                            <a href='mailto:j.vitor.spolavore@gmail.com' target='_blank'>
-                            <img src='gmail.png' className={style.redes_logo}/>j.vitor.spolavore@gmail.com
+                            <a href='mailto:j.vitor.spolavore@gmail.com' target='_blank' rel="noreferrer">
+                            <img src='gmail.png' className={style.redes_logo} alt='gmail logo'/>j.vitor.spolavore@gmail.com
                             </a>
 
-                            <a href='https://github.com/Spolavore' target='_blank'>
-                            <img src='github.png' className={style.github_logo}/> github.com/Spolavore
+                            <a href='https://github.com/Spolavore' target='_blank' rel="noreferrer">
+                            <img src='github.png' className={style.github_logo} alt='github logo'/> github.com/Spolavore
                             </a>
 
-                            <a href='https://www.linkedin.com/in/joão-vitor-spolavore-0413691a9/' target='_blank' >
-                            <img src='linkedin.png' className={style.redes_logo}/>Meu Linkedin
+                            <a href='https://www.linkedin.com/in/joão-vitor-spolavore-0413691a9/' target='_blank' rel="noreferrer" >
+                            <img src='linkedin.png' className={style.redes_logo} alt='Lindekin logo'/>Meu Linkedin
                             </a>
                         </div>
                             

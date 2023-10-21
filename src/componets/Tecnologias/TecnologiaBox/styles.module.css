@@ -1,0 +1,50 @@
+.box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border:  2px solid white;
+    border-radius: 10px ;
+    padding: 2%;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 5px 7px 10px  white;
+
+}
+
+
+.box p {
+    width: 85%;
+    text-align: justify;
+    color: white;
+
+   
+}
+
+.box button{
+    display: flex;
+    width: 100px;
+    height: 50px;
+  
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #0091FD;
+    border-radius: 5px;
+    background-color: #0091FD;
+    color: #0091FD;
+    color: #FFFFFF;
+    transition: all 0.3s ease-out;
+}
+
+.box button:hover{
+    transition: all  0.3s ease-in;
+    color: #0091FD;
+    background-color: #FFFFFF;
+
+}

@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Sobre from './componets/Sobre';
 import Barra from './componets/Barra';
 import Tecnologias from './componets/Tecnologias';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,7 +15,6 @@ root.render(
     <Header/>
     <Banner/>
     <Sobre/>
-    <Barra/>
     <Tecnologias/>
   </React.StrictMode>
 );

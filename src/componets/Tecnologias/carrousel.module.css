@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    padding: 2% 0%;
+    justify-content: center;
+    align-items: center;
+
+}   
+.item{
+    width: fit-content;
+    height: fit-content;
+   
+    padding: 3%;
+}
