@@ -42,5 +42,6 @@
     justify-content: space-between;
     text-decoration: none;
     color: white;
+    font-size: clamp(00.65rem, 1vw, 1.2rem);
     /* background-color: red; */
 }
