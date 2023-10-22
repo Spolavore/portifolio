@@ -11,7 +11,7 @@ export default function Carrousel(){
     const options = {
         items: 4,
         center: false,
-        autoplay: true,
+        autoplay: false,
         loop: true,
         autoplayTimeout: 5000,
         animateOut: 'slideOutUp',
@@ -44,7 +44,7 @@ export default function Carrousel(){
                     <Box  img_src={'c-.png'} title={'C & C++'} desc={'Conhecimento básico sobre a linguagem e tipação de dados.'}/>
                 </div>
                 <div className={style.item} >
-                    <Box  img_src={'big-data.png'} title={'Postgresql'} desc={'Conhecimento sobre funcionalidades do SGBD e técnicas para uma boa construção estrutural do banco utilizando a metodologia de modelagem ER'}/>
+                    <Box  img_src={'big-data.png'} title={'Postgresql'} desc={'Conhecimento de técnicas para uma boa construção estrutural do banco utilizando a metodologia de modelagem ER.'}/>
                 </div>big-data.png
          </OwlCarousel>
         </div>

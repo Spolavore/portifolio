@@ -1,11 +1,6 @@
 .box{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 19vw;
+    height: 19vw;
     padding: 2%;
     justify-content: space-between;
     border: 10px solid transparent;
@@ -13,19 +8,29 @@
     border-image-width: 2px; /* Define a largura da borda (deve coincidir com a largura da borda definida acima) */
     border-image-slice: 1; /* Define a divisão do gradiente (neste caso, 1 significa que o gradiente cobre toda a borda) */
 
+
+}
+.none{ 
+    display: none;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     color: #ffffff
 }
-
-
-.box p {
+.container p {
     width: 85%;
     text-align: justify;
     color: white;
-    font-size: clamp(00.65rem, 1vw, 1.2rem);
+    font-size: clamp(00.65rem, 0.8vw, 1.2rem);
     text-shadow: 2px 2px 4px #000000, -2px -2px 4px white;
 }
 
-.box button{
+.container button{
     display: flex;
     width: 100px;
     height: 50px;
@@ -43,7 +48,7 @@
     transition: all 0.3s ease-out;
 }
 
-.box button:hover{
+.container button:hover{
     transition: all  0.3s ease-in;
     color: #0091FD;
     background-color: #FFFFFF;
