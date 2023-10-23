@@ -20,12 +20,16 @@ export default function Carrousel() {
         items: 4,
       },
 
-      730: {
+      734: {
         items: 3,
        
       },
-      0: {
+      600: {
         items: 2,
+      },
+      0:{
+        items: 1,
+        
       }
     }
   };
@@ -52,7 +56,7 @@ export default function Carrousel() {
               "Conhecimento de estrutura de dados, utilização de bibliotecas, automatização de processos e desenvolvimento em ambientes virtuais."
             }
             title_span= {'Experiência com Python'}
-            desc_span ={'> Implementei algoritmos e estruturas de dados desde os mais simples até mais complexos. Durante o curso de Classificação e Pesquisa de Dados foi desenvolvido algoritmos de ordenação de comparação ( como quicksort e timsort ) e de contagem ( countsort e radixsort ). Ainda, implementado originalmente estrutura de dados como tabelas Hash e Árvores Trie'}
+            desc_span ={'> Implementei algoritmos e estruturas de dados desde os mais simples até mais complexos. Durante o curso de Classificação e Pesquisa de Dados foi desenvolvido algoritmos de ordenação de comparação ( como quicksort e timsort ) e de contagem ( countsort e radixsort ). Ainda, implementado originalmente estruturas de dados como tabelas Hash e Árvores Trie'}
             desc2_span={'> No quesito de bibliotecas, tenho experiência na criação de interfaces com o lib Pyside além de visualição, manipulação e armazenagem de dados com o Pandas, Numpy e conexão com Postgresql'}
           />
         </div>
@@ -64,8 +68,8 @@ export default function Carrousel() {
               "Conhecimento de utilização fundamental, obtenção de dados do cliente, dinamização de páginas e sua aplicação em frameworks."
             }
             title_span= {'Experiência com Javascript'}
-            desc_span ={'Lorem Ipsum'}
-            desc2_span={''}
+            desc_span ={'> Sou confortável em construir sites interativos, aplicativos web, manipular o DOM e até mesmo integrações de back-end usando Node.js. '}
+            desc2_span={'> Atualmente, utilizo o Javascript mais voltado para React JS e para as tecnologias que essa ferramenta traz'}
           />
         </div>
         <div className={style.item}>
@@ -76,8 +80,8 @@ export default function Carrousel() {
               "Conhecimento amplo da linguagem e sua tags, além da sua utilização específica em frameworks."
             }
             title_span= {'Experiência com HTML5:'}
-            desc_span ={'Lorem Ipsum'}
-            desc2_span={''}
+            desc_span ={'> Pleno entendimento acerca das tags e suas semânticas '}
+            desc2_span={'> Como Javascript , utilizo o HTML fortemente em frameworks como React JS'}
           />
         </div>
         <div className={style.item}>
@@ -88,8 +92,8 @@ export default function Carrousel() {
               "Conhecimento avançado de css, utilização de flex, animações com css puro, responsividade e acessibilidade web."
             }
             title_span= {'Experiência com CSS'}
-            desc_span ={'Lorem Ipsum'}
-            desc2_span={''}
+            desc_span ={'> Conhecimento sobre seletores CSS, Box Model, Pseudo-classes e Pseudo-elementos, desenvolvimento baseado em componentes, animações entre outros'}
+            desc2_span={'> Ademais, compreendo a importância de criar layouts responsivos - utilizando a técnica de mobile first -  e, principalmente, layouts acessíves.'}
           />
         </div>
         <div className={style.item}>
@@ -100,8 +104,8 @@ export default function Carrousel() {
               "Conhecimento de boas práticas no git, entendimento sobre: branches, pull requests, merges, resolução de conflitos no código, entre outras..."
             }
             title_span= {'Experiência com Git & Github'}
-            desc_span ={'Lorem Ipsum'}
-            desc2_span={''}
+            desc_span ={'> Possuo experiência em utilização do git tanto por terminal quanto por interfaces gráficas como GitHub Desktop e GitKraken'}
+            desc2_span={'> Compreensão sobre segurança e responsabilidade acerca das ações do programador para evitar problemas de versionamento e descontinuação no código trabalhado pela equipe'}
           />
         </div>
         <div className={style.item}>
@@ -110,7 +114,7 @@ export default function Carrousel() {
             title={"C & C++"}
             desc={"Conhecimento básico sobre a linguagem e tipação de dados."}
             title_span= {'Experiência com C & C++'}
-            desc_span ={'Lorem Ipsum'}
+            desc_span ={'> Compreendimento sobre ponteiros, programação orientada a objetos, utilização de funções da Standard Template Library'}
             desc2_span={''}
           />
           
@@ -123,8 +127,8 @@ export default function Carrousel() {
               "Conhecimento de técnicas para uma boa construção estrutural do banco utilizando a metodologia de modelagem ER."
             }
             title_span= {'Experiência com Postgresql'}
-            desc_span ={'Lorem Ipsum'}
-            desc2_span={''}
+            desc_span ={'> Compreensão sobre o Modelo Relacional e as ações de um Administrador de Banco de Dados, restrições em tabelas, generalização, classificação entre outros...'}
+            desc2_span={'> Durante meu percuso já trabalhei com Postegresql utilizando Python para a conexão e busca de dados'}
           />
         </div>
         big-data.png

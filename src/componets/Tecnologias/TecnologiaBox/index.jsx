@@ -12,7 +12,7 @@ export default function Box(props){
             <div className={styleBox} >
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>
-                <img  style={{width: '5vw'}} src={props.img_src} alt='Logo da linguagem'/>
+                <img  style={{width: 'clamp(50px, 5vw, 200px)'}} src={props.img_src} alt='Logo da linguagem'/>
                 <button onClick={()=>{ setStyleBox(style.none); setSpan(<Span title_span={props.title_span} desc_span={props.desc_span} desc2_span={props.desc2_span}/>)}}>Ver mais</button>
             </div>
         </div>
