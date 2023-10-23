@@ -12,19 +12,23 @@ export default function Box(props){
             <div className={styleBox} >
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>
-                <img src={props.img_src} style={{width: '100px'}} alt=''/>
-                <button onClick={()=>{ setStyleBox(style.none); setSpan(<Span/>)}}>Ver mais</button>
+                <img  style={{width: '5vw'}} src={props.img_src} alt='Logo da linguagem'/>
+                <button onClick={()=>{ setStyleBox(style.none); setSpan(<Span title_span={props.title_span} desc_span={props.desc_span} desc2_span={props.desc2_span}/>)}}>Ver mais</button>
             </div>
         </div>
         </>
     )
 
 
- function Span(){
+ function Span(props){
     
         return(
             <div className={spanStyle.container} onClick={()=>{setStyleBox(style.container); setSpan(<></>)}} >
-                <h1>Olá eu sou um span</h1>
+                <h2>{props.title_span}</h2>
+                <p>{props.desc_span} <span className={spanStyle.animatedChar}>_</span></p>
+                <br></br>
+                {props.desc2_span !== '' ? (<p>{props.desc2_span} <span className={spanStyle.animatedChar}>_</span></p>) : null}
+                
             </div>
         )
     }

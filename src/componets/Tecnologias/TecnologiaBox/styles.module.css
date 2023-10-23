@@ -32,11 +32,12 @@
 
 .container button{
     display: flex;
-    width: 100px;
-    height: 50px;
+    width:  5.32197977647685vw;
+    height: 2.660989888238425vw ;
   
     justify-content: center;
     align-items: center;
+    font-size: clamp(00.65rem, 0.8vw, 1.2rem);
 
     text-decoration: none;
     cursor: pointer;
@@ -53,4 +54,32 @@
     color: #0091FD;
     background-color: #FFFFFF;
 
+}
+
+@media (max-width: 1081px) {
+    .box{
+        width: 25vw;
+        height: 25vw;
+    }
+    .container button{
+        width:  7vw;
+        height: 3.5vw ;
+        font-size: 1.2vw;
+
+    }
+
+}
+
+@media (max-width: 730px){
+    .box{
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .container button{
+        width:  11vw;
+        height: 5.5vw ;
+        font-size: 1.7vw;
+
+    }
 }
