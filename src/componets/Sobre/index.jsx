@@ -3,7 +3,7 @@ import Title from '../Title'
 import DescriptionBox from '../DescriptionBox'
 export default function Sobre(){
     return(
-        <div className={style.container}>
+        <div id='sobre_mim' className={style.container}>
             <div className={style.description}>
             <Title title={'Sobre Mim'}/>
                 <div className={style.itens}>

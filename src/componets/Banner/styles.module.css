@@ -35,8 +35,8 @@
 
 .logo_img {
     filter: invert(100%);
-    width: 150px;
-    height: 150px;
+    width: clamp(75px, 7.982969664715274vw,300px);
+    height: clamp(75px, 7.982969664715274vw,300px);
     
 
 }

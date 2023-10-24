@@ -113,3 +113,18 @@
 
     }
 }
+
+@media (max-width: 360px){
+    .container{
+        font-size: 2vw;
+    }
+    .container p{
+        font-size: 3.3vw;
+    }
+    .container button{
+        width:  14vw;
+        height: 4vw ;
+        font-size: 3vw;
+
+    }
+}

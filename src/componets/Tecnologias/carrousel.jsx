@@ -29,6 +29,8 @@ export default function Carrousel() {
       },
       0:{
         items: 1,
+        dots: false,
+        nav: false,
         
       }
     }

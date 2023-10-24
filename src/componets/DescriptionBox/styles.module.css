@@ -5,14 +5,13 @@
     width: 600px;
     color: #FFFF;
     flex: 1;
-    height: 40vh;
+    height: 30vw;
     padding: 2%;
     border: 10px solid transparent;
     border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(171,175,199,1) 0%, rgba(42,70,215,1) 0%, rgba(9,22,91,1) 20%);
     border-image-slice: 1; /* Define a divisão do gradiente (neste caso, 1 significa que o gradiente cobre toda a borda) */
     border-image-width: 2px; /* Define a largura da borda (deve coincidir com a largura da borda definida acima) */
     border-radius: 20px;
-
     margin: 5px;
     
 }
@@ -42,6 +41,41 @@
     justify-content: space-between;
     text-decoration: none;
     color: white;
-    font-size: clamp(00.65rem, 1vw, 1.2rem);
+    font-size:1vw
     /* background-color: red; */
+}
+
+
+@media (max-width: 700px){
+    .container{
+        flex: auto;
+        width: 30vw;
+       
+        height: fit-content;
+    }
+    .container p{
+        font-size: clamp(0.65rem,2.6vw,3rem);
+    }
+
+    .container span{
+        font-size: clamp(1rem, 3vw, 5rem);
+    }
+    .container a {
+        font-size: clamp(1rem, 1.3vw, 2rem);
+
+    }
+}
+
+
+@media (max-width: 500px){
+    .container{
+        width: 80%;
+        
+    }
+    .container p{
+        font-size: 1rem;
+    }
+    .container span{
+        font-size: 1.2rem;
+    }
 }
