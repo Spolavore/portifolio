@@ -59,7 +59,7 @@ export default function Carrousel() {
             }
             title_span= {'Experiência com Python'}
             desc_span ={'> Implementei algoritmos e estruturas de dados desde os mais simples até mais complexos. Durante o curso de Classificação e Pesquisa de Dados foi desenvolvido algoritmos de ordenação de comparação ( como quicksort e timsort ) e de contagem ( countsort e radixsort ). Ainda, implementado originalmente estruturas de dados como tabelas Hash e Árvores Trie'}
-            desc2_span={'> No quesito de bibliotecas, tenho experiência na criação de interfaces com o lib Pyside além de visualição, manipulação e armazenagem de dados com o Pandas, Numpy e conexão com Postgresql'}
+            desc2_span={'> Ainda, tenho experiência na criação de interfaces com o lib Pyside além de visualição, manipulação e armazenagem de dados com o Pandas, Numpy e conexão com Postgresql'}
           />
         </div>
         <div className={style.item}>

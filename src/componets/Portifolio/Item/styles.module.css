@@ -2,6 +2,7 @@
     width: 50%;
     height: fit-content;
     padding: 2%;
+    
     /* background-color: red; */
 }
 
@@ -16,5 +17,22 @@
     width: 70%;
     font-size: clamp(00.65rem, 1.2vw, 1.5rem);
     color: black;
-    /* background-color: rebeccapurple; */
+    margin-bottom: 5%;    /* background-color: rebeccapurple; */
+}
+
+.titleTecnologia{
+    font-size: clamp(1rem ,1.6vw, 2rem);
+
+}
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-top: -3%;
+}
+
+.itemTecnologias{
+    color: rgba(4,4,91,1) ;
+    font-size: clamp(00.65rem, 1.2vw, 1.5rem);
 }
