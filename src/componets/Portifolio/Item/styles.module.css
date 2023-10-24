@@ -1,0 +1,20 @@
+.container{
+    width: 50%;
+    height: fit-content;
+    padding: 2%;
+    /* background-color: red; */
+}
+
+.container h2{
+    font-size: clamp(1rem ,2.5vw, 3rem);
+    margin-bottom: 5%;
+    width: 300px;
+    color: rgba(4,4,91,1) ;
+}
+
+.container p{
+    width: 70%;
+    font-size: clamp(00.65rem, 1.2vw, 1.5rem);
+    color: black;
+    /* background-color: rebeccapurple; */
+}

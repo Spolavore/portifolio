@@ -25,10 +25,11 @@
 }
 .container p {
     width: 85%;
-    text-align: justify;
+
+    text-align: justify ;
     color: white;
-    font-size: clamp(00.65rem, 0.9vw, 1.2rem);
-    text-shadow: 2px 2px 4px #000000, -2px -2px 4px white;
+    font-size: clamp(00.65rem, 1vw, 1.2rem);
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #797979;
 }
 
 .container button{

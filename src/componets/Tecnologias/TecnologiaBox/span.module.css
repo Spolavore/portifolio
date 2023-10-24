@@ -22,8 +22,9 @@
 .container p{
     text-align: justify;
     color: white;
-    font-size: 0.88vw;
-    text-shadow: 0px 0px 4px #fff;
+    font-size: clamp(0.6rem ,0.88vw, 1.2rem);
+    font-weight: bold;
+    text-shadow: 2px 3px 4px black;
 }
 
 .animatedChar{

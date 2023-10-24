@@ -3,7 +3,7 @@
     height: 50vh;
     display: flex;
     align-items: center;
-
+    margin-top: 5%;
 }
 .container{
     display: flex;

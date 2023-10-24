@@ -39,7 +39,7 @@
 
 }
 .redes_logo, .github_logo{
-    width: 2vw;
+    width: 3vw;
     
 }
 
@@ -58,7 +58,7 @@
 
     flex-direction: column;
     justify-content: space-evenly;
-    
+        
     margin-top: 5%;
 }
 
