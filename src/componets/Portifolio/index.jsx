@@ -61,6 +61,23 @@ export default function Portifolio(){
                 />
                 <img src="githubrepositorio.png" alt="Imagem dos repositórios"/>
             </div>
+
+            <div className={styles.itemListReversed}>
+                <Item
+                    title={'Dell It Academy 2023'}
+                    desc='Em 2023 houve um processo seletivo financiado pelo Centro de Pesquisa em Engenharia
+                    de Software em pareceria com a PUCRS - constituído de duas fases. Na primeira fase o candidato
+                    deveria realizar um software que resolve os problemas técnicos proposto. Em suma o software representava
+                    uma simulação para um sistema de transporte interestadual de cargas - onde o usuário podia tanto saber apenas
+                    o custo de transporte entre duas cidadas dado um tipo de caminhão específico.'
+                    buttonText={'Código Fonte'}
+                    link={'https://github.com/Spolavore/DELL-IT-ACADEMY-2023'}
+                    tecnologias={['React Js', "Manipulação de Json's", "Manipulação de csv's"]}
+                    reversed={true}    
+                />
+
+                <img src="dellitacademy.png" alt="Dell it academy"/>
+            </div>
         </div>
     )
 }
