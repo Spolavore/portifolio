@@ -9,8 +9,7 @@ import Box from "./TecnologiaBox";
 // className "owl-theme" is optional
 export default function Carrousel() {
   const options = {
-    items: 4,
-    center: false,  
+    items: 4,  
     animateOut: "slideOutUp",
     nav: false,
     margin: 0,
@@ -110,7 +109,7 @@ export default function Carrousel() {
             desc2_span={'> Compreensão sobre segurança e responsabilidade acerca das ações do programador para evitar problemas de versionamento e descontinuação no código trabalhado pela equipe'}
           />
         </div>
-        <div className={style.item}>
+        {/* <div className={style.item}>
           <Box
             img_src={"c-.png"}
             title={"C & C++"}
@@ -120,7 +119,7 @@ export default function Carrousel() {
             desc2_span={''}
           />
           
-        </div>
+        </div> */}
         <div className={style.item}>
           <Box
             img_src={"big-data.png"}
@@ -133,7 +132,7 @@ export default function Carrousel() {
             desc2_span={'> Durante meu percuso já trabalhei com Postegresql utilizando Python para a conexão e busca de dados'}
           />
         </div>
-        big-data.png
+        
       </OwlCarousel>
     </div>
   );

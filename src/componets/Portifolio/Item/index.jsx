@@ -17,7 +17,7 @@ export default function Item(props){
                 })}
             </div>
             <div className={styles.buttonDiv}>
-                <a href={props.link}  target="_blank" rel="noopener" className={styles.button}>{props.buttonText}</a>
+                <a href={props.link} rel="noreferrer" target="_blank"  className={styles.button}>{props.buttonText}</a>
             </div>
         </div>
     )
