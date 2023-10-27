@@ -4,5 +4,37 @@
     background-color: #ffffff;
     color: black;
     padding: 2%;
+    overflow: hidden;
+
     
+}
+
+.itemList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: space-evenly;
+   
+    
+
+   
+}
+
+.itemListReversed{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.itemList img, .itemListReversed img{
+    width: 40vw;
+    align-self: center;
+
+}
+
+.itemListReversed img{
+    border: 1px solid #ccc;
+    margin-left: -3%
 }

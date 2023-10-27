@@ -1,15 +1,18 @@
 .container{
     width: 50%;
     height: fit-content;
-    padding: 2%;
-    
-    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    margin-right: -10%;
 }
+
+
 
 .container h2{
     font-size: clamp(1rem ,2.5vw, 3rem);
     margin-bottom: 5%;
-    width: 300px;
+    width: 70%;
     color: rgba(4,4,91,1) ;
 }
 
@@ -18,11 +21,13 @@
     font-size: clamp(00.65rem, 1.2vw, 1.5rem);
     color: black;
     margin-bottom: 5%;    /* background-color: rebeccapurple; */
+    text-align: justify;
+    text-justify: distribute-all-lines;
 }
 
 .titleTecnologia{
     font-size: clamp(1rem ,1.6vw, 2rem);
-
+    
 }
 
 .itens{
@@ -30,9 +35,47 @@
     flex-direction: row;
     gap: 7px;
     margin-top: -3%;
+    margin-bottom: 5%;
+   
+    
 }
 
 .itemTecnologias{
     color: rgba(4,4,91,1) ;
+    display: flex;
+    
     font-size: clamp(00.65rem, 1.2vw, 1.5rem);
+}
+
+.buttonDiv{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.button{
+    display: flex;
+  
+    
+    padding: 3%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid  white;
+    border-radius: 10px;
+    font-weight: normal;
+    background-color: rgba(4,4,91,1) ;
+    transition: all 300ms ease-out;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.button:hover{
+    transition: all 300ms ease-in;
+    background-color: white;
+    transform: scale(1.1);
+
+    border: 1px solid rgba(4,4,91,1) ;
+    color: rgba(4,4,91,1) ;;
 }
