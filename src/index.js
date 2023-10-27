@@ -8,16 +8,21 @@ import Sobre from './componets/Sobre';
 import Barra from './componets/Barra';
 import Tecnologias from './componets/Tecnologias';
 import Portifolio from './componets/Portifolio';
+import Curiosidades from './componets/Curiosidades';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div style={{overflowY: 'hidden'}}>
+    <div style={{overflow: 'hidden'}}>
       <Header/>
       <Banner/>
       <Sobre/>
       <Tecnologias/>
       <Barra/>
       <Portifolio/>
+      <Barra inverted={true}/>
+      <Curiosidades/>
+      
     </div>
   </React.StrictMode>
 );

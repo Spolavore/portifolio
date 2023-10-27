@@ -72,7 +72,7 @@ export default function Portifolio(){
                     o custo de transporte entre duas cidadas dado um tipo de caminhão específico.'
                     buttonText={'Código Fonte'}
                     link={'https://github.com/Spolavore/DELL-IT-ACADEMY-2023'}
-                    tecnologias={['React Js', "Manipulação de Json's", "Manipulação de csv's"]}
+                    tecnologias={['React Js', "Manipulação de Json's" ,"Manipulação de csv's"]}
                     reversed={true}    
                 />
 
