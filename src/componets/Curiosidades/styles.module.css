@@ -1,12 +1,73 @@
 .container{
     width: 100%;
-    height: 400px;
-    background: rgb(0,0,0);
+    height: fit-content;
     padding: 2%;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,4,91,1) 100%, rgba(0,0,0,1) 100%);  
+    margin-top: 4%; 
+}
+.infos{
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10%;
+}
+.introduction{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: -3%;
+    align-items: center;
 }
 
-.container p{
+.introduction img{
+    margin-right: 10%;
+    width: 18vw;
+}
+.introduction p{
     color: white;
     font-size: clamp(0.6rem, 1.2vw, 1.8rem);
+    width: 50%;
+    text-align: justify;
+}
+
+.desafios{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    width: 90%;
+    height: fit-content;
+    gap: 50px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5%;
+    align-self: center;
+}
+
+
+
+.infoDesafios{
+   
+    width: 28%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 300px;
+    align-items: center;
+    border-radius: 20px 0px;
+   
+}
+
+.infoDesafios span{
+    text-align: center;
+    font-size: 1.3vw;
+    color: white;
+    
+
+}
+.infoDesafios h2{
+    font-size: 1.6vw;
+    color: white;
+    margin-bottom: 5%;
 }

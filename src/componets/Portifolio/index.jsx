@@ -69,7 +69,9 @@ export default function Portifolio(){
                     de Software em pareceria com a PUCRS - constituído de duas fases. Na primeira fase o candidato
                     deveria realizar um software que resolve os problemas técnicos proposto. Em suma o software representava
                     uma simulação para um sistema de transporte interestadual de cargas - onde o usuário podia tanto saber apenas
-                    o custo de transporte entre duas cidadas dado um tipo de caminhão específico.'
+                    o custo de transporte entre duas cidadas dado um tipo de caminhão específico. Veja o código fonte a baixo e a
+                    específicação do trabalho ( está no mesmo link da página do código ). Em conclusão, o sofware foi aprovado
+                    pelo Centro de Pesquisa em Engenharia de Software, possuindo tudo que foi pedido. ' 
                     buttonText={'Código Fonte'}
                     link={'https://github.com/Spolavore/DELL-IT-ACADEMY-2023'}
                     tecnologias={['React Js', "Manipulação de Json's" ,"Manipulação de csv's"]}
