@@ -9,9 +9,10 @@
   
     display: flex;
     flex-direction: column;
-   
     gap: 10%;
 }
+
+
 .introduction{
     display: flex;
     width: 90%;
@@ -21,29 +22,48 @@
 }
 
 .introduction img{
-    margin-right: 10%;
+    margin-right: 5%;
     width: 18vw;
 }
-.introduction p{
+.introduction p, .container p{
     color: white;
     font-size: clamp(0.6rem, 1.2vw, 1.8rem);
     width: 50%;
     text-align: justify;
 }
 
+.containerApiInfo{
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+}
+
+.infosApi{
+    font-size: 1.7vw;
+    color: white;
+    width: fit-content;
+    padding: 1%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+
+    
+    border-radius: 10px;
+  
+}
+
 .desafios{
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
     width: 90%;
+    margin-left: 2%;
     height: fit-content;
-    gap: 50px;
-    padding: 2%;
+    justify-content: space-between;
+ 
     border-radius: 10px;
     margin-top: 5%;
-    align-self: center;
+    margin-bottom: 4%;
+  
 }
-
 
 
 .infoDesafios{
@@ -59,10 +79,14 @@
    
 }
 
+
+
 .infoDesafios span{
     text-align: center;
-    font-size: 1.3vw;
-    color: white;
+    font-size: 1.9vw;
+    margin-top: -5%;
+    color: #0076FE;
+    text-shadow: 1px 0px 1px #ccc;
     
 
 }
@@ -71,3 +95,33 @@
     color: white;
     margin-bottom: 5%;
 }
+
+
+.containerApiInfo p{
+    margin-top: 3%;
+    width: 70%;
+}
+
+.invertedContainer{
+    display: flex;
+    margin-right: 15%;
+
+}
+
+.desafiosConcluidos{
+    display: flex;
+    flex-direction: column;
+}
+
+.invertedContainer img{
+    width: 18vw;
+    
+ }
+
+
+ .buttonLink{
+    color: white;
+    margin-top: 1%;
+    font-size: 1vw;
+ }
+ 
