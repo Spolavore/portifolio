@@ -24,6 +24,12 @@
     font-size: 1.5vw;
     margin-bottom: 3%;
     text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+.challengeName:hover{
+    cursor: pointer
 }
 
 
