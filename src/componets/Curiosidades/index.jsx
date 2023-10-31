@@ -6,7 +6,6 @@ import ChallengeBox from "./ChallengesBox";
 export default function Curiosidades() {
   const [dadosCW, setDadosCW] = useState();
   const [dadosChallenges, setDadosChallenges] = useState()
-
   useEffect(() => {
     fetch("https://www.codewars.com/api/v1/users/Spola")
       .then((response) => response.json())
@@ -22,7 +21,6 @@ export default function Curiosidades() {
       )
   }, []);
 
-  console.log(dadosChallenges);
   return (
     <div className={styles.container} id="curiosidades">
       <Title title={"Curiosidades"} />
@@ -58,16 +56,16 @@ export default function Curiosidades() {
             </div>
           </div>
 
-          <div className={styles.invertedContainer}>
+          <div className={styles.invertedContainer} style={{marginBottom: '5%'}}>
             <div className={styles.desafiosConcluidos}>
               <span className={styles.infosApi}>Desafios Conluídos</span>
               <p>Abaixo estão alguns dos desafios que eu mais tive trabalho em resolver. Recomendo
                 fortemente que vejas a resolução dos {dadosCW?.codeChallenges.totalCompleted} desafios
                 que eu já completei na minha trajetória. Se tiver interessado clique no botão abaixo 
                 para ir para a página com todas as minhas resoluções.
-              </p>
+            </p>
               <a className={styles.buttonLink} href='https://www.codewars.com/users/Spola/completed_solutions' target="_blank" rel="noreferrer">Veja as soluções</a>
-            </div>
+        </div>
             <img  src="challenge.png" alt='Ilustrativo'/>
 
 
