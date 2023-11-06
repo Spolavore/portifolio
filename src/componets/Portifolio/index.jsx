@@ -3,7 +3,9 @@ import styles from './styles.module.css'
 import Item from "./Item"
 export default function Portifolio(){
     return(
-        <div id='portifolio' className={styles.container}>
+        <>
+        <div id='portifolio' style={{height: "100px", backgroundColor: 'white'}}></div>
+        <div  className={styles.container}>
             <Title title={'Portifólio'} color={'black'}/>
             <div className={styles.itemList}>
                 <Item 
@@ -78,8 +80,9 @@ export default function Portifolio(){
                     reversed={true}    
                 />
 
-                <img src="dellitacademy.png" alt="Dell it academy"/>
+                <img  src="dellitacademy.png" alt="Dell it academy"/>
             </div>
-        </div>
+        </div >
+        </>
     )
 }

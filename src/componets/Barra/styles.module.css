@@ -16,7 +16,7 @@
     display: flex;
     justify-content: flex-end;
     color: transparent;
-    padding: 0%;
+    padding: 0%; 
     transform: rotate(180deg);
 }
 .subcontainer{

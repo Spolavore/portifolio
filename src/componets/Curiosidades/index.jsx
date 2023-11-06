@@ -22,7 +22,11 @@ export default function Curiosidades() {
   }, []);
 
   return (
-    <div className={styles.container} id="curiosidades">
+    <>
+    
+    <div id="curiosidades" style={{height: "100px"}}></div>
+ 
+    <div className={styles.container} >
       <Title title={"Curiosidades"} />
       <div className={styles.infos}>
         <div className={styles.introduction}>
@@ -78,5 +82,6 @@ export default function Curiosidades() {
         </div>
       </div>
     </div>
+    </>
   );
 }

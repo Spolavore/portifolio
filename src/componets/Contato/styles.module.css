@@ -1,0 +1,58 @@
+.container{
+    padding: 2%;
+    background-color: white;
+}
+
+.contato{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contato p {
+    align-self: center;
+    margin-bottom: 2%;
+}
+.inputList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 20px;
+}
+
+.inputList input{
+    width: 50%;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+
+.inputList input::placeholder{
+    padding: 10px
+}
+.inputList button{
+    display: flex;
+    width: 150px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border: 1px solid  white;
+    border-radius: 10px;
+    font-weight: normal;
+    background-color: rgba(4,4,91,1) ;
+    transition: all 300ms ease-out;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.inputList button:hover{
+    transition: all 300ms ease-in;
+    background-color: white;
+    transform: scale(1.1);
+
+    border: 1px solid rgba(4,4,91,1) ;
+    color: rgba(4,4,91,1) ;;
+}

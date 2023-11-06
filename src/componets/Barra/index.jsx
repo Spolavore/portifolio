@@ -5,7 +5,7 @@ export default function Barra(props){
         stylesDinamic = style.containerInverted
     }
     return(
-        <div className={stylesDinamic}>
+        <div className={stylesDinamic} >
             <div className={style.subcontainer}></div>
             
         </div>

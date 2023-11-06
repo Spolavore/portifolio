@@ -7,7 +7,7 @@ export default function Header(){
                 <a href='#tecnologia' className={styles.animatedHover}>Tecnologias</a>
                 <a href='#portifolio' className={styles.animatedHover}>Portifólio</a>
                 <a href='#curiosidades' className={styles.animatedHover}>Curiosidades</a>
-                <a className={styles.animatedHover}>Contato</a>
+                <a href='#contato' className={styles.animatedHover}>Contato</a>
             </ul>
         </div>
     )

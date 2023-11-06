@@ -9,6 +9,7 @@ import Barra from './componets/Barra';
 import Tecnologias from './componets/Tecnologias';
 import Portifolio from './componets/Portifolio';
 import Curiosidades from './componets/Curiosidades';
+import Contato from './componets/Contato';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,9 @@ root.render(
       <Portifolio/>
       <Barra inverted={true}/>
       <Curiosidades/>
-      
+      <Barra/>
+
+      <Contato/>
     </div>
   </React.StrictMode>
 );
