@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-self: flex-end;
     margin-right: -10%;
+  
 }
 
 
@@ -78,4 +79,29 @@
 
     border: 1px solid rgba(4,4,91,1) ;
     color: rgba(4,4,91,1) ;;
+}
+
+
+@media (max-width: 800px){
+    .container{
+        width: 100%;
+        margin-right: 0%;
+        padding: 0%;
+        align-items: center;
+      
+    }
+    .container h2{
+        text-align: center;
+        font-size: clamp(1rem ,2vw ,2.2rem);
+    }
+
+    .container p{
+        font-size: clamp(0.8rem, 1.4vw, 2rem);
+    }
+
+    .buttonDiv{
+        width: 100%;
+        
+        /* background-color: red; */
+    }
 }
