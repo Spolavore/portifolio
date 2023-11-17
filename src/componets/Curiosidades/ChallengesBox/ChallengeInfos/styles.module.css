@@ -16,12 +16,12 @@
 
 .subtitle {
     display: flex;
-    font-size: 2vw;
+    font-size: clamp(1.3rem, 2vw, 3rem);
     flex-direction: column;
     justify-content: space-between;
 }
 .challengeName{
-    font-size: 1.5vw;
+    font-size: clamp(1rem, 1.5vw, 2.5rem);
     margin-bottom: 3%;
     text-decoration: underline;
     text-transform: capitalize;
@@ -34,7 +34,23 @@
 
 
 .container p{
-    font-size: 1.2vw;
+    font-size: clamp(1rem, 1.5vw, 2.5rem);
+
     width: 100%;
     display: flex;
+}
+
+.buttonLink{
+    margin-top: 5%;
+    font-size: clamp(1rem, 1.3vw, 1.5rem);
+    align-self: center;
+    color: white;
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 70%;
+    }
+
+
 }

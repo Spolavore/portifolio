@@ -7,7 +7,7 @@ export default function Banner(){
             <div className={styles.itens}>
                     <img src='codigo.png' className={styles.logo_img} alt='Logo da página/'/>
                     <h1>&gt;SPOLA_</h1>
-                </div>
+            </div>
                 <span className={styles.description}>Desenvolvedor FullStacker</span>
 
         </div>

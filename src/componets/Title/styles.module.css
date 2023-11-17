@@ -36,3 +36,10 @@
         opacity: 1;
     }
 }
+
+
+@media (max-width: 500px){
+    .container{
+        margin-left: 5%;
+    }
+}

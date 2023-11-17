@@ -51,6 +51,7 @@
     cursor: pointer;
     border: 1px solid  white;
     border-radius: 10px;
+    font-size: clamp(1rem, 1.3vw, 1.5rem);
     font-weight: normal;
     background-color: rgba(4,4,91,1) ;
     transition: all 300ms ease-out;

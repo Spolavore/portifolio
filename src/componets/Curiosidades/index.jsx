@@ -55,7 +55,7 @@ export default function Curiosidades() {
               <span>{dadosCW?.ranks.overall.name}</span>
             </div>
             <div className={styles.infoDesafios}>
-              <h2>Linguagem mais usadas:</h2>
+              <h2>Linguagem mais usada:</h2>
               <span>Python</span>
             </div>
           </div>
