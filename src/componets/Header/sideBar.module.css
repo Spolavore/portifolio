@@ -1,0 +1,87 @@
+.container{
+    width: 50%;
+    height: 95vh;
+    z-index: 9999;
+    position: absolute;
+    background-color: white;
+    animation: slideIn 500ms normal;
+    transition: 300ms all ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+  
+}
+
+.navList{
+    display: flex;
+    flex-direction: column;
+    
+ 
+
+    height: 50vh;
+    justify-content: space-between;
+    padding: 7% 0%;
+    align-items: center;
+}
+
+.navList a{
+    color: black;
+    font-size: clamp(1.3rem, 1.6vw, 2rem);
+    text-decoration: none;
+}
+
+.close{
+    color: black;
+    font-size: clamp(1.5rem, 1.6vw, 2rem);
+    margin: 5% 0% -50% 5%;
+    
+   
+    transition: 300ms all ease-out;
+
+}
+
+.close:hover{
+    transition: 300ms all ease-in;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.itens{
+    display: flex;
+    
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    /* background-color: rebeccapurple; */
+    color: white;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,4,91,1) 100%, rgba(0,0,0,1) 100%);  
+    animation: popin 600ms;
+    
+}
+
+.itens img{
+    width: 70px;
+    filter: invert();
+}
+
+.description{
+    color: #767676;
+    opacity: 50%;
+    margin-top: 1%;
+    font-style: italic;
+    animation: popin 700ms;
+}
+
+@keyframes slideIn {
+    from{
+        left: -50%;
+    }
+    to{
+        left: 0;
+    }
+}

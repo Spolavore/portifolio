@@ -28,7 +28,8 @@
 }
 .introduction p, .container p{
     color: white;
-    font-size: clamp(0.6rem, 1.2vw, 1.8rem);
+  
+    font-size: clamp(1rem, 1.2vw, 1.8rem);
     width: 50%;
     text-align: justify;
 }
@@ -129,7 +130,77 @@
  }
  
 
-@media (max-width: 650px){
+ @media (max-width: 900px) {
+    .desafios{
+       flex-wrap: wrap;
+      
+    }
+
+ }
+
+@media (max-width: 800px){
+    /* fazer repsonsividade */
+    .introduction{
+        flex-direction: column;
+       
+        width: 100%;
+        gap: 20px;
+    }
+
+    .introduction p {
+        width: 80%;
+        padding: 2% 5%;
+        margin-top: 3%;
+    }
+    
+    .introduction img{
+        width: 23vw;
+    }
+
+    .textAlign{
+        display: flex;
+        width: 95%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .infosApi{
+        font-size: clamp(1.4rem, 1.6vw, 1.8rem);
+        
+       
+        text-align: center;
+    }
+
+    .invertedContainer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-right: 0%;
+
+    }
+
+    .invertedContainer p {
+   
+        width: 80%;
+        padding: 2% 5%;
+        margin-top: 3%;
+        margin-left: 3%;
+        justify-self: center;
+    }
+
+    .invertedContainer img{
+        width: 23vw;
+
+    }
+    .buttonLink{
+        font-size: clamp(1rem, 1.3vw, 1.5rem);
+        justify-self: center;
+        text-align: center;
+    }
+}
+
+
+ @media (max-width: 650px){
     .desafios{
         flex-direction: column;
         align-items: center;
@@ -137,7 +208,7 @@
     }
     .infoDesafios{
         
-        width: 50%;
+        width: 70vw;
     }
 
     .infoDesafios h2{
@@ -148,15 +219,3 @@
         font-size: clamp(1rem, 1.5vw, 2rem);
     }
 }
-
-@media (max-width: 800px){
-    /* fazer repsonsividade */
-}
-
- @media (max-width: 900px) {
-    .desafios{
-       flex-wrap: wrap;
-       
-    }
-
- }

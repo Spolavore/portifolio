@@ -18,6 +18,7 @@
     display: flex;
     font-size: clamp(1.3rem, 2vw, 3rem);
     flex-direction: column;
+    width: 100%;
     justify-content: space-between;
 }
 .challengeName{
@@ -35,9 +36,10 @@
 
 .container p{
     font-size: clamp(1rem, 1.5vw, 2.5rem);
-
     width: 100%;
+
     display: flex;
+   
 }
 
 .buttonLink{
@@ -47,9 +49,10 @@
     color: white;
 }
 
-@media (max-width: 600px){
+
+@media (max-width: 800px){
     .container{
-        width: 70%;
+        width: 80%;
     }
 
 

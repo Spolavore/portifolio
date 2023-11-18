@@ -42,7 +42,7 @@ export default function Carrousel() {
             img_src={"atomo.png"}
             title={"React Js"}
             desc={
-              "Conhecimento sobre components e boas práticas no código, utilização de hooks, React Routes, consumo de API's e informações de base de dados."
+              "Conhecimento sobre components e boas práticas no código, utilização de hooks, React Routes, consumo de API's e informações de base de dados"
             }
             title_span= {'Experiência com React'}
             desc_span ={'> React Js é minha linguagem de programação front-end favorita. Nela já estou confortável em construir interfaces interativas e responsivas,  explorando os recursos do React, como os Hooks, e também me aventurando no desenvolvimento mobile com o React Native.\n'}
@@ -57,8 +57,8 @@ export default function Carrousel() {
               "Conhecimento de estrutura de dados, utilização de bibliotecas, automatização de processos e desenvolvimento em ambientes virtuais."
             }
             title_span= {'Experiência com Python'}
-            desc_span ={'> Implementei algoritmos e estruturas de dados desde os mais simples até mais complexos. Durante o curso de Classificação e Pesquisa de Dados foi desenvolvido algoritmos de ordenação de comparação ( como quicksort e timsort ) e de contagem ( countsort e radixsort ). Ainda, implementado originalmente estruturas de dados como tabelas Hash e Árvores Trie'}
-            desc2_span={'> Ainda, tenho experiência na criação de interfaces com o lib Pyside além de visualição, manipulação e armazenagem de dados com o Pandas, Numpy e conexão com Postgresql'}
+            desc_span ={'> Durante o curso de Classificação e Pesquisa de Dados foi desenvolvido algoritmos de ordenação de comparação ( como quicksort e timsort ) e de contagem ( countsort e radixsort ). Ainda, implementado originalmente estruturas de dados como tabelas Hash e Árvores Trie'}
+            desc2_span={'>Experiência na criação de interfaces com o lib Pyside além de visualição, manipulação e armazenagem de dados com o Pandas, Numpy e conexão com Postgresql'}
           />
         </div>
         <div className={style.item}>
@@ -66,10 +66,10 @@ export default function Carrousel() {
             img_src={"javascript.png"}
             title={"Javascript"}
             desc={
-              "Conhecimento de utilização fundamental, obtenção de dados do cliente, dinamização de páginas e sua aplicação em frameworks."
+              "Conhecimento de utilização fundamental, obtenção de dados do cliente, dinamização de páginas e sua aplicação em frameworks"
             }
             title_span= {'Experiência com Javascript'}
-            desc_span ={'> Sou confortável em construir sites interativos, aplicativos web, manipular o DOM e até mesmo integrações de back-end usando Node.js. '}
+            desc_span ={'> Sou confortável em construir sites interativos, aplicativos web, manipular o DOM e até mesmo integrações de back-end usando Node.js '}
             desc2_span={'> Atualmente, utilizo o Javascript mais voltado para React JS e para as tecnologias que essa ferramenta traz'}
           />
         </div>
@@ -78,7 +78,7 @@ export default function Carrousel() {
             img_src={"html.png"}
             title={"HTML5"}
             desc={
-              "Conhecimento amplo da linguagem e sua tags, além da sua utilização específica em frameworks."
+              "Conhecimento amplo da linguagem e sua tags, além da sua utilização específica em frameworks"
             }
             title_span= {'Experiência com HTML5:'}
             desc_span ={'> Pleno entendimento acerca das tags e suas semânticas '}
@@ -90,11 +90,11 @@ export default function Carrousel() {
             img_src={"css (1).png"}
             title={"CSS"}
             desc={
-              "Conhecimento avançado de css, utilização de flex, animações com css puro, responsividade e acessibilidade web."
+              "Conhecimento avançado de css, utilização de flex, animações com css puro, responsividade e acessibilidade web"
             }
             title_span= {'Experiência com CSS'}
             desc_span ={'> Conhecimento sobre seletores CSS, Box Model, Pseudo-classes e Pseudo-elementos, desenvolvimento baseado em componentes, animações entre outros'}
-            desc2_span={'> Ademais, compreendo a importância de criar layouts responsivos - utilizando a técnica de mobile first -  e, principalmente, layouts acessíves.'}
+            desc2_span={'> Ademais, compreendo a importância de criar layouts responsivos - utilizando a técnica de mobile first -  e, principalmente, layouts acessíves'}
           />
         </div>
         <div className={style.item}>

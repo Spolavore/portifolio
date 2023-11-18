@@ -1,8 +1,11 @@
 
 .mainBox{
-    height: 50vh;
+    height: 400px;
     display: flex;
     align-items: center;
+   
+
+   
     margin-top: 5%;
 }
 .container{
@@ -10,8 +13,8 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    height: fit-content;
-    /* background-color: red; */
+ 
+ 
     align-items: center;
     
     transition: all ease-in 300ms;
@@ -35,8 +38,8 @@
 
 .logo_img {
     filter: invert(100%);
-    width: clamp(75px, 7.982969664715274vw,300px);
-    height: clamp(75px, 7.982969664715274vw,300px);
+    width: clamp(60px, 7.982969664715274vw,300px);
+    height: clamp(60px, 7.982969664715274vw,300px);
     
 
 }

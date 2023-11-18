@@ -8,9 +8,11 @@
     top: 0;
     left: 0;
     z-index: 10;
-
+ 
 }
-
+.burguerDiv{
+    display: none;
+}
 .navItens{
     width: 100%;
     display: flex;
@@ -58,5 +60,33 @@
     }
     to{
         opacity: 100%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .navItens{
+        display: none;
+    }
+
+    .burguerDiv{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        padding: 5%;
+        align-items: flex-start;
+    }
+    .burguer{
+
+        width: 30px;
+        filter: invert();
+        transition: 300ms all ease-out;
+
+    }
+
+    .burguer:hover{
+        transition: 300ms all ease-in;
+        cursor: pointer;
+        transform: scale(1.1);
     }
 }
