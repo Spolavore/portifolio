@@ -1,13 +1,13 @@
 .box{
     width: 19vw;
-    height: 25vw;
+    height: 400px;
     padding: 2%;
     justify-content: space-between;
     border: 10px solid transparent;
     border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(171,175,199,1) 0%, rgba(42,70,215,1) 0%, rgba(9,22,91,1) 20%);
     border-image-width: 2px; /* Define a largura da borda (deve coincidir com a largura da borda definida acima) */
     border-image-slice: 1; /* Define a divisão do gradiente (neste caso, 1 significa que o gradiente cobre toda a borda) */
-
+    
 
 }
 .none{ 
@@ -58,6 +58,7 @@
     background-color: #FFFFFF;
 
 }
+
 
 @media (max-width: 1081px) {
     .box{

@@ -13,6 +13,11 @@
 .burguerDiv{
     display: none;
 }
+
+.mainFrame{
+    width: 100%;
+    background-color: black;
+}
 .navItens{
     width: 100%;
     display: flex;

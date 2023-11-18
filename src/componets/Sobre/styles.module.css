@@ -63,6 +63,10 @@
     margin-top: 5%;
 }
 
+.redes a{
+    font-size: clamp(0.6rem, 1.4vw, 2rem);
+}
+
 @keyframes pulse {
     from{
        opacity: 1;

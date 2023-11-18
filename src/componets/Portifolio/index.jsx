@@ -12,10 +12,10 @@ export default function Portifolio(){
                     title='NEJPOA'
                     desc='Do ano de 2022 até 2024 fiz parte da Empresa Junior de 
                     Computação da UFRGS - A IDE Jr. Nela, fui líder de uma equipe de 8 pessoas , 
-                    onde foi realizado o design e implementação do site institucional do NEJPOA. Em suma.
+                    onde foi realizado o design e implementação do site institucional do NEJPOA. Em suma,
                     o NEJPOA é um dos 3 núcleos do Rio Grande do Sul que representa as empresas Juniores no país.'
                     desc_tecnologias='Durante o decorrer do projeto, o qual durou cerca de 6 meses, foram utilizadas
-                    as tecnologias abaixo e competências abaixo:'
+                    as tecnologias e competências abaixo:'
                     tecnologias={['Next JS', 'Netlify', 'Figma', 'Git & Github', 'Trabalho em Equipe']}
                     link={'https://www.nejpoa.com.br'}
                     buttonText={'Acesse o Site'}
@@ -30,7 +30,7 @@ export default function Portifolio(){
                     de Relações Humanas da empresa. Visto a recorrente necessidade de gerar documentos que, por muitas vezes,
                     alterava-se apenas os dados do usuários - mantendo uma estrutura padrão entre os documentos - foi desenvolvimento
                     um programa de arquivo executável que não só gerava 3 tipos de documentos no formato .pdf, como enviava emails
-                    automaticamente para departamentos distintos da empresa. Tanto o back-end como o front-end em Python.
+                    automaticamente para departamentos distintos da empresa. Tanto o back-end como o front-end foi desenvolvido em Python.
                     Para o front, foi utilizado o software QtDesigner para a criação da interface e, a posteriori, a biblioteca Pyside2
                     para a conversão do arquivo gerado pelo software para um arquivo Python'
 
@@ -69,7 +69,7 @@ export default function Portifolio(){
                     title={'Dell It Academy 2023'}
                     desc='Em 2023 houve um processo seletivo financiado pelo Centro de Pesquisa em Engenharia
                     de Software em pareceria com a PUCRS - constituído de duas fases. Na primeira fase o candidato
-                    deveria realizar um software que resolve os problemas técnicos proposto. Em suma o software representava
+                    deveria realizar um software que resolve os problemas técnicos proposto. Em suma, o software representava
                     uma simulação para um sistema de transporte interestadual de cargas - onde o usuário podia tanto saber apenas
                     o custo de transporte entre duas cidadas dado um tipo de caminhão específico. Veja o código fonte a baixo e a
                     específicação do trabalho ( está no mesmo link da página do código ). Em conclusão, o sofware foi aprovado
