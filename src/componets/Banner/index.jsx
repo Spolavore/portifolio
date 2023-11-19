@@ -9,7 +9,7 @@ export default function Banner(){
                     <h1>&gt;SPOLA_</h1>
             </div>
                 <span className={styles.description}>Desenvolvedor FullStacker</span>
-
+        
         </div>
         </div>
     )
