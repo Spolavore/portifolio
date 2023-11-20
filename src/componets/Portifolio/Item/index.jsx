@@ -9,7 +9,7 @@ export default function Item(props){
         <div className={styles.container}>
             <h2>{props.title}</h2>
             <p style={styleParagraph}>{props.desc}</p>
-            <span className={styles.titleTecnologia}>Comepetências</span>
+            <span className={styles.titleTecnologia}>Competências</span>
             <p style={styleParagraph}>{props.desc_tecnologias}</p>
             <div className={styles.itens}>
                 {props.tecnologias.map((item,index) => {
