@@ -62,7 +62,7 @@ export default function Curiosidades() {
 
           <div className={styles.invertedContainer} style={{marginBottom: '5%'}}>
             <div className={styles.desafiosConcluidos}>
-             <div className={styles.textAlign}> <span className={styles.infosApi}>Desafios Conluídos</span></div>
+             <div className={styles.textAlign}> <span className={styles.infosApi}>Desafios Concluídos</span></div>
               <p>Abaixo estão alguns dos desafios que eu mais tive trabalho em resolver. Recomendo
                 fortemente que vejas a resolução dos {dadosCW?.codeChallenges.totalCompleted} desafios
                 que eu já completei na minha trajetória. Se tiver interessado clique no botão abaixo 
