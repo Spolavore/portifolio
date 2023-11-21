@@ -13,7 +13,7 @@ export default function Sobre(){
                         <span>Quem sou eu ?</span>
                         <div className={style.text}>
                             <p>&gt; Meu nome é João Vitor Spolavore, mas todos meus amigos me chamam 
-                                de Spola :&#41;. Eu tenho $&#123;idade&#125; anos e estou no 4 semestre
+                                de Spola :&#41;. Eu tenho 20 anos e estou no 4 semestre
                                 de Ciência Da Computação na Universidade Federal do Rio Grande do Sul <span className={style.animatedChar}>_</span>
                             </p>
                         </div>
