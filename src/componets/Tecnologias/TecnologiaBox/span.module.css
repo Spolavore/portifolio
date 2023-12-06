@@ -23,7 +23,7 @@
 .container p{
     text-align: justify;
     color: white;
-    font-size: clamp(0.6rem ,1vw, 1.2rem);
+    font-size: clamp(0.6rem ,0.8vw, 1.2rem);
     font-weight: bold;
     text-shadow: 2px 3px 4px black;
 }
